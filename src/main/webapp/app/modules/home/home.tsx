@@ -22,11 +22,8 @@ export const Home = () => {
             <Alert color="warning">
               <span>&nbsp;</span>
               <Link to="/login" className="alert-link">
-                entrar
+                ENTRAR
               </Link>
-              , utilize as seguintes contas padrões:
-              <br />- Administrador (usuário=&quot;admin&quot; and senha=&quot;admin&quot;) <br />- Usuário (usuário=&quot;user&quot; e
-              senha=&quot;user&quot;).
             </Alert>
 
             <Alert color="warning">

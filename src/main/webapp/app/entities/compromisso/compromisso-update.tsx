@@ -149,16 +149,6 @@ export const CompromissoUpdate = () => {
                   </option>
                 ))}
               </ValidatedField>
-              <ValidatedField id="compromisso-usuario" name="usuario" data-cy="usuario" label="Usuario" type="select">
-                <option value="" key="0" />
-                {users
-                  ? users.map(otherEntity => (
-                      <option value={otherEntity.id} key={otherEntity.id}>
-                        {otherEntity.id}
-                      </option>
-                    ))
-                  : null}
-              </ValidatedField>
               <Button tag={Link} id="cancel-save" data-cy="entityCreateCancelButton" to="/compromisso" replace color="info">
                 <FontAwesomeIcon icon="arrow-left" />
                 &nbsp;
