@@ -25,13 +25,6 @@ export const Home = () => {
                 ENTRAR
               </Link>
             </Alert>
-
-            <Alert color="warning">
-              Não possui uma conta ainda?&nbsp;
-              <Link to="/account/register" className="alert-link">
-                Crie uma nova conta
-              </Link>
-            </Alert>
           </div>
         )}
       </Col>
